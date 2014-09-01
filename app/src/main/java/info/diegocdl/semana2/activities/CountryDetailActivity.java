@@ -2,13 +2,14 @@ package info.diegocdl.semana2.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import info.diegocdl.semana2.R;
 
 
-public class CountryDetailActivity extends FragmentActivity {
+public class CountryDetailActivity extends ActionBarActivity {
     public String country = "";
     public static final String COUNTRY = "country";
     @Override
